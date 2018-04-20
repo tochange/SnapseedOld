@@ -1,20 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="SnapseedAppTheme">
+        <item name="android:actionBarStyle">@style/SnapseedActionBar</item>
     </style>
-
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="SnapseedActionBar">
+        <item name="android:background">@drawable/actionbar_background</item>
     </style>
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
+    <style name="Animations">
+    </style>
+    <style name="Animations.PopDownMenu">
+    </style>
+    <style name="Animations.PopDownMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+    <style name="Animations.PopDownMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="Animations.PopDownMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="Animations.PopDownMenu.Reflect">
+        <item name="android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="Animations.PopUpMenu">
+    </style>
+    <style name="Animations.PopUpMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+    <style name="Animations.PopUpMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+    <style name="Animations.PopUpMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+    <style name="Animations.PopUpMenu.Reflect">
+        <item name="android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="GlobalToolbarButtonTitle">
+        <item name="android:textSize">@dimen/gb_button_font_size</item>
+        <item name="android:typeface">@null</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gt_button_title</item>
+        <item name="android:background">@drawable/tb_button_background</item>
+    </style>
+    <style name="EditToolbarButtonTitle">
+        <item name="android:textSize">@dimen/tb_button_font_size</item>
+        <item name="android:typeface">@null</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tb_button_title</item>
+        <item name="android:background">@drawable/tb_button_background</item>
+        <item name="android:shadowColor">@android:color/white</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="EditToolbarButtonTitle.Selectable">
+        <item name="android:textColor">@color/tb_selectable_button_title</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="EditToolbarButtonTitle.Selectable.PreserveTitleColor">
+        <item name="android:textColor">@color/tb_button_title</item>
+    </style>
+    <style name="FilterListItemTitle">
+        <item name="android:textSize">@dimen/fl_text_font_size</item>
+        <item name="android:typeface">@null</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff404040</item>
+        <item name="android:shadowColor">#e5ffffff</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="ControlPoint">
+        <item name="android:textSize">@dimen/cp_font_size</item>
+        <item name="android:typeface">@null</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ControlPoint.Inactive">
+        <item name="android:textColor">#d2000000</item>
+        <item name="android:background">@drawable/gfx_ct_cp_disabled</item>
+    </style>
+    <style name="ControlPoint.Active">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/gfx_ct_cp_active</item>
+        <item name="android:shadowColor">#d2000000</item>
+        <item name="android:shadowDy">-1</item>
+    </style>
+    <style name="ParameterSelectorItem">
+        <item name="android:textSize">@dimen/tb_subpanel_item_font_size</item>
+        <item name="android:textColor">@color/tb_subpanel_item_title</item>
+    </style>
 </resources>

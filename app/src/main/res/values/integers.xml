@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="is_tablet">0</integer>
+    <integer name="max_image_pixel_count">8388608</integer>
+</resources>

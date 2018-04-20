@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<helpoverlay xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <items orientation="landscape">
+        <text anchor="SCREEN" anchoralign="TOP_CENTER" rotation="-4" spacing="0,100" type="dismiss" txt="overlay_tap_anywhere_to_dismiss" align="TOP_CENTER"/>
+        <image anchor="SHAREBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomleft_tablet.png" anchoralign="TOP_CENTER" name="arrow_share" spacing="25,-10"/>
+        <text anchor="arrow_share" align="BOTTOM_LEFT" txt="share_btn" anchoralign="50°" spacing="0,0" rotation="-15"/>
+        <image anchor="SAVEBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomright_tablet.png" anchoralign="TOP_CENTER" name="arrow_save" spacing="10,-10"/>
+        <text anchor="arrow_save" align="BOTTOM_RIGHT" txt="overlay_save_image" anchoralign="130°" spacing="0,0" rotation="3"/>
+        <image anchor="MENUBUTTON" align="TOP_CENTER" img="overlays_arrow_topright_tablet.png" anchoralign="BOTTOM_LEFT" name="arrow_help" spacing="10,-5"/>
+        <text anchor="arrow_help" align="TOP_CENTER" txt="overlay_more_help" anchoralign="290°" spacing="-15,10" rotation="35"/>
+        <image anchor="FILTERLIST" align="BOTTOM_CENTER" img="overlays_gesture_updown_tablet.png" anchoralign="CENTER_CENTER" spacing="45,0"/>
+        <text anchor="FILTERLIST" anchoralign="CENTER_LEFT" fixWidth="440" fontsize="tall" spacing="10,0" align="TOP_LEFT" txt="overlay_scroll_filterlist_landscape"/>
+    </items>
+    <items orientation="portrait">
+        <text anchor="SCREEN" anchoralign="TOP_CENTER" rotation="-4" spacing="0,250" type="dismiss" txt="overlay_tap_anywhere_to_dismiss" align="TOP_CENTER"/>
+        <image anchor="SHAREBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomleft_tablet.png" anchoralign="TOP_CENTER" name="arrow_share" spacing="0,-10"/>
+        <text anchor="arrow_share" align="BOTTOM_LEFT" txt="share_btn" anchoralign="50°" spacing="0,0" rotation="-15"/>
+        <image anchor="SAVEBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomright_tablet.png" anchoralign="TOP_CENTER" name="arrow_save" spacing="0,-10"/>
+        <text anchor="arrow_save" align="BOTTOM_RIGHT" txt="overlay_save_image" anchoralign="130°" spacing="0,0" rotation="3"/>
+        <image anchor="MENUBUTTON" align="TOP_CENTER" img="overlays_arrow_topright_tablet.png" anchoralign="BOTTOM_LEFT" name="arrow_help" spacing="10,-5"/>
+        <text anchor="arrow_help" align="TOP_CENTER" txt="overlay_more_help" anchoralign="290°" spacing="-15,10" rotation="35"/>
+        <image anchor="FILTERLIST" align="CENTER_LEFT" img="overlays_gesture_leftright_tablet.png" anchoralign="CENTER_CENTER" spacing="10,0"/>
+        <text anchor="FILTERLIST" fontsize="tall" txt="overlay_scroll_filterlist_portrait" anchoralign="CENTER_LEFT" align="CENTER_LEFT" spacing="10,0"/>
+    </items>
+    <items orientation="portrait_phone">
+        <text anchor="SCREEN" anchoralign="CENTER_CENTER" rotation="-4" spacing="0,0" type="dismiss" txt="overlay_tap_to_compare" align="BOTTOM_CENTER"/>
+        <image anchor="SCREEN" align="TOP_RIGHT" img="overlays_arrow_topleft_phone.png" anchoralign="TOP_RIGHT" name="arrow_open_save_share" type="open_save_share" spacing="-75,40" rotation="55"/>
+        <text anchor="arrow_open_save_share" anchoralign="BOTTOM_CENTER" rotation="5" spacing="-15,-5" align="TOP_CENTER" txt="overlay_open_save_share"/>
+        <image anchor="FILTERLIST" align="CENTER_RIGHT" img="overlays_gesture_leftright_phone.png" anchoralign="CENTER_CENTER" spacing="0,-20"/>
+        <text anchor="FILTERLIST" align="CENTER_LEFT" txt="overlay_scroll_filterlist_portrait" anchoralign="CENTER_CENTER" fixWidth="56%" spacing="0,0"/>
+    </items>
+    <items orientation="landscape_phone">
+        <text anchor="SCREEN" anchoralign="CENTER_CENTER" rotation="-4" spacing="0,0" type="dismiss" txt="overlay_tap_to_compare" align="CENTER_LEFT"/>
+        <image anchor="SCREEN" align="TOP_RIGHT" img="overlays_arrow_topleft_phone.png" anchoralign="TOP_RIGHT" name="arrow_open_save_share" type="open_save_share" spacing="-60,40" rotation="55"/>
+        <text anchor="arrow_open_save_share" align="TOP_CENTER" txt="overlay_open_save_share" anchoralign="BOTTOM_CENTER" spacing="-15,-5" rotation="5"/>
+        <image anchor="FILTERLIST" align="CENTER_CENTER" img="overlays_gesture_updown_phone.png" anchoralign="CENTER_CENTER" name="overlay_updown" spacing="0,0"/>
+        <text anchor="overlay_updown" align="TOP_CENTER" txt="overlay_scroll_filterlist_landscape" anchoralign="BOTTOM_CENTER" spacing="0,0"/>
+    </items>
+</helpoverlay>

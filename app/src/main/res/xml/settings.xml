@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/pref_about">
+        <PreferenceScreen android:title="@string/pref_about_build_version" android:key="build_version"/>
+        <PreferenceScreen android:title="@string/pref_about_privacy_policy">
+            <intent android:action="android.intent.action.VIEW" android:data="@string/pref_about_privacy_policy_url"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/pref_about_terms_of_service">
+            <intent android:action="android.intent.action.VIEW" android:data="@string/pref_about_terms_of_service_url"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

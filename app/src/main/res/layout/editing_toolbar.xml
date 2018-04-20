@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tb_background">
+
+    <com.niksoftware.snapseed.views.ScaleParameterDisplay
+        android:id="@+id/scale_param_display"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/tb_button_horz_margin"
+        android:layout_marginRight="@dimen/tb_button_horz_margin"
+        android:gravity="center" />
+
+    <com.niksoftware.snapseed.views.BaseFilterButton
+        android:id="@+id/left_filter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/scale_param_display"
+        android:padding="@dimen/tb_button_padding"
+        custom:title_visible="false" />
+
+    <com.niksoftware.snapseed.views.BaseFilterButton
+        android:id="@+id/right_filter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/scale_param_display"
+        android:padding="@dimen/tb_button_padding"
+        custom:title_visible="false" />
+
+    <com.niksoftware.snapseed.views.ToolButton
+        android:id="@+id/back_button"
+        style="@style/EditToolbarButtonTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/tb_button_horz_margin"
+        android:padding="@dimen/tb_button_padding"
+        custom:normal_drawable="@drawable/icon_tb_cancel_default"
+        custom:title="@string/cancel_btn"
+        custom:title_visible="false" />
+
+    <com.niksoftware.snapseed.views.ToolButton
+        android:id="@+id/apply_button"
+        style="@style/EditToolbarButtonTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/tb_button_horz_margin"
+        android:padding="@dimen/tb_button_padding"
+        custom:normal_drawable="@drawable/icon_tb_apply_default"
+        custom:title="@string/apply_label"
+        custom:title_visible="false" />
+</RelativeLayout>

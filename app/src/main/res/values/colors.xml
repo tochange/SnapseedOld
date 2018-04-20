@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="gt_normal_button_title">#ffd8dde5</color>
+    <color name="gt_disabled_button_title">#7fd8dde5</color>
+    <color name="gt_selected_button_title">#ff7f7f7f</color>
+    <color name="tb_normal_button_title">#ff2c2c2c</color>
+    <color name="tb_disabled_button_title">#7f2c2c2c</color>
+    <color name="tb_selected_button_title">#ff4694d8</color>
+    <color name="tb_normal_button_title_shadow">#ffffffff</color>
+    <color name="tb_disabled_button_shadow">#7fffffff</color>
+    <color name="tb_subpanel_background">#a8000000</color>
+    <color name="tb_subpanel_normal_item_title">#ffe3e3e3</color>
+    <color name="tb_subpanel_selected_item_title">#ff4694d8</color>
+    <color name="helpoverlay_background">#af000000</color>
 </resources>

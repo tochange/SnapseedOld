@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="title" format="string">
+    </attr>
+    <attr name="title_visible" format="boolean">
+    </attr>
+    <attr name="normal_drawable" format="reference">
+    </attr>
+    <attr name="selected_drawable" format="reference">
+    </attr>
+    <attr name="disabled_drawable" format="reference">
+    </attr>
+</resources>

@@ -1,35 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.mayubao.android_pay">
-
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:versionCode="9" android:versionName="1.6.0" android:installLocation="auto" package="com.niksoftware.snapseed">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="18"/>
+    <!--<uses-feature android:glEsVersion="20000"/>-->
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <supports-screens android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" android:xlargeScreens="true"/>
+    <application android:theme="@style/SnapseedAppTheme" android:label="Snapseed" android:icon="@drawable/ic_launcher" android:logo="@drawable/ic_launcher" android:hardwareAccelerated="true" android:largeHeap="true">
+        <activity android:label="Snapseed" android:name=".MainActivity" android:launchMode="singleTask" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|fontScale">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name=".PayWechatActivity"
-            android:label="@string/title_activity_pay_wechat"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".PayAliPayActivity"
-            android:label="@string/title_activity_pay_ali_pay"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".TestOnlineActivity"
-            android:label="@string/title_activity_test_online"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:label="@string/pref_activity_label" android:name=".SettingsActivity" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|fontScale"/>
+        <activity android:name=".ImagePropertyActivity" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|fontScale"/>
+        <activity android:name=".SystemInfoActivity" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|fontScale"/>
     </application>
-
 </manifest>

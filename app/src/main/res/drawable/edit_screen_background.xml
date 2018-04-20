@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/new_bg" android:tileMode="repeat"/>
+    </item>
+    <item>
+        <bitmap android:gravity="fill" android:src="@drawable/edit_shine_behind_picture_small"/>
+    </item>
+</layer-list>

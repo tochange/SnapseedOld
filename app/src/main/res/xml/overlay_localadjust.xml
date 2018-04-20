@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<helpoverlay xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <items orientation="landscape">
+        <text anchor="SCREEN" anchoralign="TOP_LEFT" rotation="-4" spacing="25,65" type="dismiss" txt="overlay_tap_anywhere_to_dismiss" align="TOP_LEFT"/>
+        <image anchor="BACKBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomleft_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_1" spacing="0,-10"/>
+        <text anchor="my_arrow_1" align="BOTTOM_CENTER" txt="help_cancel" anchoralign="50°" rotation="25" spacing="0,0"/>
+        <image anchor="APPLYBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomright_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_2" spacing="0,-10"/>
+        <text anchor="my_arrow_2" align="BOTTOM_CENTER" txt="help_apply" anchoralign="130°" rotation="-15" spacing="0,0"/>
+        <image anchor="SCREEN" align="BOTTOM_CENTER" img="overlays_gesture_leftrightupdown_tablet.png" anchoralign="CENTER_CENTER" name="nr_2_gesture" spacing="0,40"/>
+        <text fontsize="extreme" anchor="nr_2_gesture" txt="overlay_local_adjust_2_number" anchoralign="TOP_CENTER" align="BOTTOM_CENTER" spacing="0,38"/>
+        <text anchor="nr_2_gesture" anchoralign="BOTTOM_CENTER" fixWidth="30%" fontsize="tall" spacing="0,-25" align="TOP_CENTER" txt="overlay_local_adjust_2_gesture"/>
+        <image anchor="nr_2_gesture" img="overlays_gesture_addcp_tablet.png" anchoralign="CENTER_LEFT" fixWidth="" spacing="-60,0" align="CENTER_RIGHT" name="nr_1_gesture"/>
+        <text fontsize="extreme" anchor="nr_1_gesture" txt="overlay_local_adjust_1_number" anchoralign="TOP_CENTER" align="BOTTOM_CENTER" spacing="0,38"/>
+        <text anchor="nr_1_gesture" anchoralign="BOTTOM_CENTER" fixWidth="30%" fontsize="tall" spacing="0,-25" align="TOP_CENTER" txt="overlay_local_adjust_1_gesture"/>
+        <image anchor="nr_2_gesture" align="CENTER_LEFT" img="overlays_gesture_pinch_tablet.png" anchoralign="CENTER_RIGHT" name="nr_3_gesture" spacing="60,0"/>
+        <text fontsize="extreme" anchor="nr_3_gesture" txt="overlay_local_adjust_3_number" anchoralign="TOP_CENTER" align="BOTTOM_CENTER" spacing="0,38"/>
+        <text anchor="nr_3_gesture" anchoralign="BOTTOM_CENTER" fixWidth="30%" fontsize="tall" spacing="0,-25" align="TOP_CENTER" txt="overlay_local_adjust_3_gesture"/>
+    </items>
+    <items orientation="portrait">
+        <text anchor="SCREEN" anchoralign="TOP_LEFT" rotation="-4" spacing="25,85" type="dismiss" txt="overlay_tap_anywhere_to_dismiss" align="TOP_LEFT"/>
+        <image anchor="BACKBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomleft_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_1" spacing="0,-10"/>
+        <text anchor="my_arrow_1" align="BOTTOM_CENTER" txt="help_cancel" anchoralign="50°" rotation="25" spacing="0,0"/>
+        <image anchor="APPLYBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomright_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_2" spacing="0,-10"/>
+        <text anchor="my_arrow_2" align="BOTTOM_CENTER" txt="help_apply" anchoralign="130°" rotation="-15" spacing="0,0"/>
+        <text anchor="SCREEN" anchoralign="CENTER_CENTER" fixWidth="65%" fontsize="tall" spacing="0,0" align="CENTER_CENTER" txt="overlay_local_adjust_2_gesture" name="nr_2_text"/>
+        <image anchor="nr_2_text" align="BOTTOM_CENTER" img="overlays_gesture_leftrightupdown_tablet.png" anchoralign="TOP_CENTER" name="nr_2_gesture" spacing="0,40"/>
+        <text fontsize="extreme" anchor="nr_2_gesture" txt="overlay_local_adjust_2_number" anchoralign="BOTTOM_LEFT" align="TOP_RIGHT" spacing="-120,-40"/>
+        <text anchor="nr_2_gesture" anchoralign="TOP_CENTER" fixWidth="65%" fontsize="tall" spacing="0,30" align="BOTTOM_CENTER" txt="overlay_local_adjust_1_gesture" name="nr_1_text"/>
+        <image anchor="nr_1_text" align="BOTTOM_CENTER" img="overlays_gesture_addcp_tablet.png" anchoralign="TOP_CENTER" name="nr_1_gesture" spacing="0,40"/>
+        <text fontsize="extreme" anchor="nr_1_gesture" txt="overlay_local_adjust_1_number" anchoralign="BOTTOM_LEFT" align="TOP_RIGHT" spacing="-120,-40"/>
+        <image anchor="nr_2_text" align="TOP_CENTER" img="overlays_gesture_pinch_tablet.png" anchoralign="BOTTOM_CENTER" name="nr_3_gesture" spacing="0,-40"/>
+        <text fontsize="extreme" anchor="nr_3_gesture" txt="overlay_local_adjust_3_number" anchoralign="BOTTOM_LEFT" align="TOP_RIGHT" spacing="-120,0"/>
+        <text anchor="nr_3_gesture" anchoralign="BOTTOM_CENTER" fixWidth="65%" fontsize="tall" spacing="0,0" align="TOP_CENTER" txt="overlay_local_adjust_3_gesture"/>
+    </items>
+    <items orientation="portrait_phone">
+        <image img="overlays_arrow_topright_phone.png" name="my_arrow_0" anchor="SCREEN" anchoralign="TOP_RIGHT" align="TOP_RIGHT" spacing="-10,10"/>
+        <text txt="compare_btn" anchor="my_arrow_0" anchoralign="200°" align="CENTER_RIGHT" spacing="-5,0" rotation="-5"/>
+        <image img="overlays_arrow_bottomleft_phone.png" name="my_arrow_1" anchor="BACKBUTTON" anchoralign="CENTER_RIGHT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_cancel" anchor="my_arrow_1" anchoralign="40°" align="TOP_LEFT" spacing="5,0" rotation="-14"/>
+        <image img="overlays_arrow_bottomright_phone.png" name="my_arrow_2" anchor="APPLYBUTTON" anchoralign="CENTER_LEFT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_apply" anchor="my_arrow_2" anchoralign="140°" align="TOP_RIGHT" spacing="-5,0" rotation="14"/>
+        <text anchor="SCREEN" anchoralign="CENTER_CENTER" fixWidth="80%" spacing="10,0" align="CENTER_CENTER" txt="overlay_local_adjust_2_gesture" name="nr_2_text"/>
+        <image anchor="nr_2_text" align="BOTTOM_CENTER" img="overlays_gesture_leftrightupdown_phone.png" anchoralign="TOP_CENTER" name="nr_2_gesture" spacing="0,0"/>
+        <text fontsize="extreme" anchor="nr_2_gesture" txt="overlay_local_adjust_2_number" anchoralign="CENTER_LEFT" align="CENTER_RIGHT" spacing="-65,0"/>
+        <text anchor="nr_2_gesture" anchoralign="TOP_CENTER" fixWidth="80%" spacing="0,-20" align="BOTTOM_CENTER" txt="overlay_local_adjust_1_gesture" name="nr_1_text"/>
+        <image anchor="nr_1_text" align="BOTTOM_CENTER" img="overlays_gesture_addcp_phone.png" anchoralign="TOP_CENTER" name="nr_1_gesture" spacing="0,00"/>
+        <text fontsize="extreme" anchor="nr_1_gesture" txt="overlay_local_adjust_1_number" anchoralign="CENTER_LEFT" align="CENTER_RIGHT" spacing="-65,0"/>
+        <image anchor="nr_2_text" align="TOP_CENTER" img="overlays_gesture_pinch_phone.png" anchoralign="BOTTOM_CENTER" name="nr_3_gesture" spacing="0,20"/>
+        <text fontsize="extreme" anchor="nr_3_gesture" txt="overlay_local_adjust_3_number" anchoralign="CENTER_LEFT" align="CENTER_RIGHT" spacing="-65,0"/>
+        <text anchor="nr_3_gesture" align="TOP_CENTER" txt="overlay_local_adjust_3_gesture" anchoralign="BOTTOM_CENTER" spacing="0,0" fixWidth="80%"/>
+    </items>
+    <items orientation="landscape_phone">
+        <image img="overlays_arrow_topright_phone.png" name="my_arrow_0" anchor="SCREEN" anchoralign="TOP_RIGHT" align="TOP_RIGHT" spacing="-10,10"/>
+        <text txt="compare_btn" anchor="my_arrow_0" anchoralign="200°" align="CENTER_RIGHT" spacing="-5,0" rotation="-5"/>
+        <image img="overlays_arrow_bottomleft_phone.png" name="my_arrow_1" anchor="BACKBUTTON" anchoralign="CENTER_RIGHT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_cancel" anchor="my_arrow_1" anchoralign="40°" align="TOP_LEFT" spacing="5,0" rotation="-14"/>
+        <image img="overlays_arrow_bottomright_phone.png" name="my_arrow_2" anchor="APPLYBUTTON" anchoralign="CENTER_LEFT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_apply" anchor="my_arrow_2" anchoralign="140°" align="TOP_RIGHT" spacing="-5,0" rotation="14"/>
+        <image anchor="SCREEN" align="BOTTOM_CENTER" img="overlays_gesture_leftrightupdown_phone.png" anchoralign="CENTER_CENTER" name="nr_2_gesture" spacing="0,0"/>
+        <text fontsize="extreme" anchor="nr_2_gesture" txt="overlay_local_adjust_2_number" anchoralign="TOP_CENTER" align="BOTTOM_CENTER" spacing="0,20"/>
+        <text anchor="nr_2_gesture" align="TOP_CENTER" txt="overlay_local_adjust_2_gesture" anchoralign="BOTTOM_CENTER" fixWidth="28%" spacing="0,10"/>
+        <image anchor="nr_2_gesture" align="CENTER_RIGHT" img="overlays_gesture_addcp_phone.png" anchoralign="CENTER_LEFT" name="nr_1_gesture" spacing="-70,0"/>
+        <text fontsize="extreme" anchor="nr_1_gesture" txt="overlay_local_adjust_1_number" anchoralign="TOP_CENTER" align="BOTTOM_CENTER" spacing="0,20"/>
+        <text anchor="nr_1_gesture" align="TOP_CENTER" txt="overlay_local_adjust_1_gesture" anchoralign="BOTTOM_CENTER" fixWidth="28%" spacing="0,10"/>
+        <image anchor="nr_2_gesture" align="CENTER_LEFT" img="overlays_gesture_pinch_phone.png" anchoralign="CENTER_RIGHT" name="nr_3_gesture" spacing="70,0"/>
+        <text fontsize="extreme" anchor="nr_3_gesture" txt="overlay_local_adjust_3_number" anchoralign="TOP_CENTER" align="BOTTOM_CENTER" spacing="0,20"/>
+        <text anchor="nr_3_gesture" align="TOP_CENTER" txt="overlay_local_adjust_3_gesture" anchoralign="BOTTOM_CENTER" fixWidth="28%" spacing="0,10"/>
+    </items>
+</helpoverlay>

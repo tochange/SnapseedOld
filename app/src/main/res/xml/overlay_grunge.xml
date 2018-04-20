@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<helpoverlay xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <items orientation="landscape">
+        <text anchor="SCREEN" anchoralign="TOP_LEFT" rotation="-4" spacing="25,85" type="dismiss" txt="overlay_tap_anywhere_to_dismiss" align="TOP_LEFT"/>
+        <image anchor="BACKBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomleft_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_1" spacing="0,-10"/>
+        <text anchor="my_arrow_1" align="BOTTOM_CENTER" txt="help_cancel" anchoralign="50°" rotation="25" spacing="0,0"/>
+        <image anchor="APPLYBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomright_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_2" spacing="0,-10"/>
+        <text anchor="my_arrow_2" align="BOTTOM_CENTER" txt="help_apply" anchoralign="130°" rotation="-15" spacing="0,0"/>
+        <image anchor="FILTERBUTTONRIGHT" align="BOTTOM_LEFT" img="overlays_arrow_left_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_4" spacing="-15,0"/>
+        <text anchor="my_arrow_4" anchoralign="TOP_CENTER" rotation="0" fontsize="tall" spacing="-20,0" align="TOP_RIGHT" txt="overlay_select_texture"/>
+        <image anchor="SCREEN" align="CENTER_RIGHT" img="overlays_gesture_drag_tablet.png" anchoralign="CENTER_CENTER" name="drag_gesture" spacing="-100,-10"/>
+        <text anchor="drag_gesture" anchoralign="CENTER_RIGHT" fixWidth="515" fontsize="tall" spacing="10,0" align="CENTER_LEFT" txt="overlay_drag_gesture"/>
+        <image anchor="drag_gesture" align="BOTTOM_CENTER" img="overlays_gesture_leftrightupdown_tablet.png" anchoralign="TOP_CENTER" name="single_finger_gesture" spacing="0,75"/>
+        <text anchor="single_finger_gesture" anchoralign="CENTER_RIGHT" fixWidth="515" fontsize="tall" spacing="10,0" align="CENTER_LEFT" txt="overlay_updown_leftright_gesture"/>
+        <image anchor="drag_gesture" align="TOP_CENTER" img="overlays_gesture_pinch_tablet.png" anchoralign="BOTTOM_CENTER" name="pinch_gesture" spacing="0,-75"/>
+        <text anchor="pinch_gesture" anchoralign="CENTER_RIGHT" fixWidth="515" fontsize="tall" spacing="10,0" align="CENTER_LEFT" txt="overlay_pinch_gesture"/>
+    </items>
+    <items orientation="portrait">
+        <text anchor="SCREEN" anchoralign="TOP_LEFT" rotation="-4" spacing="25,85" type="dismiss" txt="overlay_tap_anywhere_to_dismiss" align="TOP_LEFT"/>
+        <image anchor="BACKBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomleft_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_1" spacing="0,-10"/>
+        <text anchor="my_arrow_1" align="BOTTOM_CENTER" txt="help_cancel" anchoralign="50°" rotation="25" spacing="0,0"/>
+        <image anchor="APPLYBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomright_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_2" spacing="0,-10"/>
+        <text anchor="my_arrow_2" align="BOTTOM_CENTER" txt="help_apply" anchoralign="130°" rotation="-15" spacing="0,0"/>
+        <image anchor="FILTERBUTTONRIGHT" align="BOTTOM_LEFT" img="overlays_arrow_left_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_4" spacing="-15,0"/>
+        <text anchor="my_arrow_4" anchoralign="TOP_CENTER" rotation="0" fontsize="tall" spacing="-20,0" align="TOP_RIGHT" txt="overlay_select_texture"/>
+        <image anchor="SCREEN" align="CENTER_RIGHT" img="overlays_gesture_drag_tablet.png" anchoralign="CENTER_CENTER" name="drag_gesture" spacing="-70,-20"/>
+        <text anchor="drag_gesture" anchoralign="CENTER_RIGHT" fixWidth="420" fontsize="tall" spacing="10,0" align="CENTER_LEFT" txt="overlay_drag_gesture"/>
+        <image anchor="drag_gesture" align="BOTTOM_CENTER" img="overlays_gesture_leftrightupdown_tablet.png" anchoralign="TOP_CENTER" name="single_finger_gesture" spacing="0,50"/>
+        <text anchor="single_finger_gesture" anchoralign="CENTER_RIGHT" fixWidth="420" fontsize="tall" spacing="10,0" align="CENTER_LEFT" txt="overlay_updown_leftright_gesture"/>
+        <image anchor="drag_gesture" align="TOP_CENTER" img="overlays_gesture_pinch_tablet.png" anchoralign="BOTTOM_CENTER" name="pinch_gesture" spacing="0,-50"/>
+        <text anchor="pinch_gesture" anchoralign="CENTER_RIGHT" fixWidth="420" fontsize="tall" spacing="10,0" align="CENTER_LEFT" txt="overlay_pinch_gesture"/>
+    </items>
+    <items orientation="portrait_phone">
+        <image img="overlays_arrow_topright_phone.png" name="my_arrow_0" anchor="SCREEN" anchoralign="TOP_RIGHT" align="TOP_RIGHT" spacing="-10,10"/>
+        <text txt="compare_btn" anchor="my_arrow_0" anchoralign="200°" align="CENTER_RIGHT" spacing="-5,0" rotation="-5"/>
+        <image img="overlays_arrow_bottomleft_phone.png" name="my_arrow_1" anchor="BACKBUTTON" anchoralign="CENTER_RIGHT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_cancel" anchor="my_arrow_1" anchoralign="40°" align="TOP_LEFT" spacing="5,0" rotation="-14"/>
+        <image img="overlays_arrow_bottomright_phone.png" name="my_arrow_2" anchor="APPLYBUTTON" anchoralign="CENTER_LEFT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_apply" anchor="my_arrow_2" anchoralign="140°" align="TOP_RIGHT" spacing="-5,0" rotation="14"/>
+        <image anchor="SCREEN" align="CENTER_RIGHT" img="overlays_gesture_drag_phone.png" anchoralign="CENTER_CENTER" name="drag_gesture" spacing="-10,0"/>
+        <text anchor="drag_gesture" align="CENTER_LEFT" txt="overlay_drag_gesture" anchoralign="CENTER_RIGHT" spacing="0,0" fixWidth="45%"/>
+        <image anchor="drag_gesture" align="BOTTOM_CENTER" img="overlays_gesture_leftrightupdown_phone.png" anchoralign="TOP_CENTER" name="single_finger_gesture" spacing="0,15"/>
+        <text anchor="single_finger_gesture" align="CENTER_LEFT" txt="overlay_updown_leftright_gesture" anchoralign="CENTER_RIGHT" spacing="0,0" fixWidth="45%"/>
+        <image anchor="drag_gesture" align="TOP_CENTER" img="overlays_gesture_pinch_phone.png" anchoralign="BOTTOM_CENTER" name="pinch_gesture" spacing="0,-20"/>
+        <text anchor="pinch_gesture" align="CENTER_LEFT" txt="overlay_pinch_gesture" anchoralign="CENTER_RIGHT" spacing="0,0" fixWidth="45%"/>
+    </items>
+    <items orientation="landscape_phone">
+        <image img="overlays_arrow_topright_phone.png" name="my_arrow_0" anchor="SCREEN" anchoralign="TOP_RIGHT" align="TOP_RIGHT" spacing="-10,10"/>
+        <text txt="compare_btn" anchor="my_arrow_0" anchoralign="200°" align="CENTER_RIGHT" spacing="-5,0" rotation="-5"/>
+        <image img="overlays_arrow_bottomleft_phone.png" name="my_arrow_1" anchor="BACKBUTTON" anchoralign="CENTER_RIGHT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_cancel" anchor="my_arrow_1" anchoralign="40°" align="TOP_LEFT" spacing="5,0" rotation="-14"/>
+        <image img="overlays_arrow_bottomright_phone.png" name="my_arrow_2" anchor="APPLYBUTTON" anchoralign="CENTER_LEFT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_apply" anchor="my_arrow_2" anchoralign="140°" align="TOP_RIGHT" spacing="-5,0" rotation="14"/>
+        <image anchor="SCREEN" align="CENTER_RIGHT" img="overlays_gesture_drag_phone.png" anchoralign="CENTER_CENTER" name="drag_gesture" spacing="-25,0"/>
+        <text anchor="drag_gesture" align="CENTER_LEFT" txt="overlay_drag_gesture" anchoralign="CENTER_RIGHT" spacing="0,0" fixWidth="40%"/>
+        <image anchor="drag_gesture" align="BOTTOM_CENTER" img="overlays_gesture_leftrightupdown_phone.png" anchoralign="TOP_CENTER" name="single_finger_gesture" spacing="0,10"/>
+        <text anchor="single_finger_gesture" align="CENTER_LEFT" txt="overlay_updown_leftright_gesture" anchoralign="CENTER_RIGHT" spacing="0,0" fixWidth="40%"/>
+        <image anchor="drag_gesture" align="TOP_CENTER" img="overlays_gesture_pinch_phone.png" anchoralign="BOTTOM_CENTER" name="pinch_gesture" spacing="0,-10"/>
+        <text anchor="pinch_gesture" align="CENTER_LEFT" txt="overlay_pinch_gesture" anchoralign="CENTER_RIGHT" spacing="0,0" fixWidth="40%"/>
+    </items>
+</helpoverlay>

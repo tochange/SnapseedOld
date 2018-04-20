@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<helpoverlay xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <items orientation="landscape">
+        <text anchor="SCREEN" anchoralign="TOP_LEFT" rotation="-4" spacing="25,50" type="dismiss" txt="overlay_tap_anywhere_to_dismiss" align="TOP_LEFT"/>
+        <image anchor="BACKBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomleft_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_1" spacing="0,-10"/>
+        <text anchor="my_arrow_1" align="BOTTOM_CENTER" txt="help_cancel" anchoralign="50°" rotation="25" spacing="0,0"/>
+        <image anchor="APPLYBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomright_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_2" spacing="0,-10"/>
+        <text anchor="my_arrow_2" align="BOTTOM_CENTER" txt="help_apply" anchoralign="130°" rotation="-15" spacing="0,0"/>
+        <image anchor="FILTERBUTTONRIGHT" align="BOTTOM_LEFT" img="overlays_arrow_left_tablet.png" anchoralign="TOP_CENTER" name="my_arrow_4" spacing="-10,5"/>
+        <text anchor="my_arrow_4" align="TOP_CENTER" txt="overlay_straighten_rotate_cw" anchoralign="BOTTOM_CENTER" spacing="0,10" rotation="0"/>
+        <image anchor="FILTERBUTTONLEFT" align="BOTTOM_RIGHT" img="overlays_arrow_right_tablet.png" anchoralign="TOP_CENTER" name="my_arrow_5" spacing="10,5"/>
+        <text anchor="my_arrow_5" align="TOP_CENTER" txt="overlay_straighten_rotate_ccw" anchoralign="BOTTOM_CENTER" spacing="0,10" rotation="0"/>
+        <image anchor="SCREEN" align="CENTER_CENTER" img="overlays_grid_rotate_tablet.png" anchoralign="CENTER_CENTER" name="straighten_gesture" spacing="-210,-60"/>
+        <text anchor="straighten_gesture" anchoralign="CENTER_RIGHT" fixWidth="420" fontsize="tall" spacing="10,30" align="TOP_LEFT" txt="overlay_straighten_text" name="straighten_gesture_text"/>
+        <image anchor="straighten_gesture_text" align="BOTTOM_CENTER" img="overlays_gesture_updown_tablet.png" anchoralign="TOP_CENTER" spacing="0,30"/>
+        <text anchor="SCREEN" anchoralign="BOTTOM_CENTER" fixWidth="890" fontsize="tall" spacing="0,-120" align="BOTTOM_CENTER" txt="overlay_rotate_text"/>
+    </items>
+    <items orientation="portrait">
+        <text anchor="SCREEN" anchoralign="TOP_LEFT" rotation="-4" spacing="25,85" type="dismiss" txt="overlay_tap_anywhere_to_dismiss" align="TOP_LEFT"/>
+        <image anchor="BACKBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomleft_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_1" spacing="0,-20"/>
+        <text anchor="my_arrow_1" align="BOTTOM_CENTER" txt="help_cancel" anchoralign="50°" rotation="25" spacing="0,0"/>
+        <image anchor="APPLYBUTTON" align="BOTTOM_CENTER" img="overlays_arrow_bottomright_tablet.png" anchoralign="CENTER_CENTER" name="my_arrow_2" spacing="0,-20"/>
+        <text anchor="my_arrow_2" align="BOTTOM_CENTER" txt="help_apply" anchoralign="130°" rotation="-15" spacing="0,0"/>
+        <image anchor="FILTERBUTTONRIGHT" align="BOTTOM_LEFT" img="overlays_arrow_left_tablet.png" anchoralign="TOP_CENTER" name="my_arrow_4" spacing="-15,5"/>
+        <text anchor="my_arrow_4" align="TOP_CENTER" txt="overlay_straighten_rotate_cw" anchoralign="BOTTOM_CENTER" spacing="0,10" rotation="0"/>
+        <image anchor="FILTERBUTTONLEFT" align="BOTTOM_RIGHT" img="overlays_arrow_right_tablet.png" anchoralign="TOP_CENTER" name="my_arrow_5" spacing="15,5"/>
+        <text anchor="my_arrow_5" align="TOP_CENTER" txt="overlay_straighten_rotate_ccw" anchoralign="BOTTOM_CENTER" spacing="0,10" rotation="0"/>
+        <image anchor="SCREEN" align="CENTER_CENTER" img="overlays_grid_rotate_tablet.png" anchoralign="CENTER_CENTER" name="straighten_gesture" spacing="-80,-50"/>
+        <text anchor="straighten_gesture" anchoralign="BOTTOM_CENTER" fixWidth="600" fontsize="tall" spacing="80,10" align="TOP_CENTER" txt="overlay_straighten_text" name="straighten_gesture_text"/>
+        <image anchor="straighten_gesture" align="CENTER_LEFT" img="overlays_gesture_updown_tablet.png" anchoralign="CENTER_RIGHT" spacing="-90,0"/>
+    </items>
+    <items orientation="portrait_phone">
+        <image img="overlays_arrow_topright_phone.png" name="my_arrow_0" anchor="SCREEN" anchoralign="TOP_RIGHT" align="TOP_RIGHT" spacing="-10,10"/>
+        <text txt="compare_btn" anchor="my_arrow_0" anchoralign="200°" align="CENTER_RIGHT" spacing="-5,0" rotation="-5"/>
+        <image img="overlays_arrow_bottomleft_phone.png" name="my_arrow_1" anchor="BACKBUTTON" anchoralign="CENTER_RIGHT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_cancel" anchor="my_arrow_1" anchoralign="40°" align="TOP_LEFT" spacing="5,0" rotation="-14"/>
+        <image img="overlays_arrow_bottomright_phone.png" name="my_arrow_2" anchor="APPLYBUTTON" anchoralign="CENTER_LEFT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_apply" anchor="my_arrow_2" anchoralign="140°" align="TOP_RIGHT" spacing="-5,0" rotation="14"/>
+        <image anchor="SCREEN" align="CENTER_CENTER" img="overlays_grid_rotate_phone.png" anchoralign="CENTER_CENTER" name="straighten_gesture" spacing="-40,-50"/>
+        <text anchor="straighten_gesture" anchoralign="BOTTOM_CENTER" fixWidth="220" spacing="20,0" align="TOP_CENTER" txt="overlay_straighten_text" name="straighten_gesture_text"/>
+        <image anchor="straighten_gesture" align="CENTER_LEFT" img="overlays_gesture_updown_phone.png" anchoralign="CENTER_RIGHT" spacing="-50,0"/>
+    </items>
+    <items orientation="landscape_phone">
+        <image img="overlays_arrow_topright_phone.png" name="my_arrow_0" anchor="SCREEN" anchoralign="TOP_RIGHT" align="TOP_RIGHT" spacing="-10,10"/>
+        <text txt="compare_btn" anchor="my_arrow_0" anchoralign="200°" align="CENTER_RIGHT" spacing="-5,0" rotation="-5"/>
+        <image img="overlays_arrow_bottomleft_phone.png" name="my_arrow_1" anchor="BACKBUTTON" anchoralign="CENTER_RIGHT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_cancel" anchor="my_arrow_1" anchoralign="40°" align="TOP_LEFT" spacing="5,0" rotation="-14"/>
+        <image img="overlays_arrow_bottomright_phone.png" name="my_arrow_2" anchor="APPLYBUTTON" anchoralign="CENTER_LEFT" align="BOTTOM_CENTER" spacing="0,0"/>
+        <text txt="help_apply" anchor="my_arrow_2" anchoralign="140°" align="TOP_RIGHT" spacing="-5,0" rotation="14"/>
+        <image anchor="FILTERBUTTONRIGHT" align="BOTTOM_LEFT" img="overlays_arrow_left_phone.png" anchoralign="TOP_CENTER" name="my_arrow_4" spacing="-10,5"/>
+        <image anchor="FILTERBUTTONLEFT" align="BOTTOM_RIGHT" img="overlays_arrow_right_phone.png" anchoralign="TOP_CENTER" name="my_arrow_5" spacing="10,5"/>
+        <image anchor="SCREEN" align="CENTER_CENTER" img="overlays_grid_rotate_phone.png" anchoralign="CENTER_CENTER" name="straighten_gesture" spacing="-100,-30"/>
+        <text anchor="straighten_gesture" anchoralign="CENTER_RIGHT" fixWidth="220" spacing="0,30" align="TOP_LEFT" txt="overlay_straighten_text" name="straighten_gesture_text"/>
+        <image anchor="straighten_gesture_text" align="BOTTOM_CENTER" img="overlays_gesture_updown_phone.png" anchoralign="TOP_CENTER" spacing="-40,0"/>
+        <text anchor="SCREEN" align="BOTTOM_CENTER" txt="overlay_rotate_text_phone" anchoralign="BOTTOM_CENTER" fixWidth="155" spacing="0,-30"/>
+    </items>
+</helpoverlay>
